@@ -1,5 +1,5 @@
 function timer() {
-    
+
     //Timer
 
     const deadLine = '2020-12-31';
@@ -54,4 +54,4 @@ function timer() {
     setClock('.timer', deadLine);
 }
 
-module.exports = timer;
+export default timer;
